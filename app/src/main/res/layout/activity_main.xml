@@ -8,20 +8,28 @@
     android:orientation="vertical"
     >
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/txtKey"
-        />
+<!--    <GridView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:columnWidth="165dp"-->
+<!--        android:gravity="center"-->
+<!--        android:horizontalSpacing="20dp"-->
+<!--        android:numColumns="2"-->
+<!--        android:stretchMode="columnWidth"-->
+<!--        android:verticalSpacing="85dp"-->
+<!--        android:id="@+id/gvGif"/>-->
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Search Gif"
-        android:id="@+id/btnSearch"
-        />
+    <WebView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/webView"
+        android:layout_gravity="center_horizontal" />
 
-
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/imgView"
+        android:layout_gravity="center_horizontal" />
 
 
 
