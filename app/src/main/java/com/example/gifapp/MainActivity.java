@@ -1,13 +1,8 @@
 package com.example.gifapp;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Context;
-
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
-import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
@@ -24,9 +19,8 @@ public class MainActivity extends AppCompatActivity {
     public static String[] urls = {"","","","","","","","","",""};
     public static int positionNumber;
 
-    public static String key = "search?api_key=YGHnKKBGSydS6nSt6WAoUcICWwmgCfvL&q=&limit=25&offset=0&rating=g&lang=en";
+//    public static String key = "search?api_key=YGHnKKBGSydS6nSt6WAoUcICWwmgCfvL&q=&limit=25&offset=0&rating=g&lang=en";
 
-    private List<GifInfoResult> gifInfoResults;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

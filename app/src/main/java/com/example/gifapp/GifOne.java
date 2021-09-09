@@ -1,16 +1,10 @@
 package com.example.gifapp;
-
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.ImageView;
-
 import com.bumptech.glide.Glide;
-
-import static com.example.gifapp.MainActivity.datums;
 import static com.example.gifapp.MainActivity.urls;
 
 public class GifOne extends AppCompatActivity {
@@ -24,8 +18,6 @@ public class GifOne extends AppCompatActivity {
 
         int position = intent.getExtras().getInt("id");
         Log.d("MyApp", position + " в новом активити");
-
-        GiphyAdapter giphyAdapter = new GiphyAdapter(this, 0, datums);
 
         ImageView imageView = findViewById(R.id.imgGifOne);
 
