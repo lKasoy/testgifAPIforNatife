@@ -19,9 +19,6 @@ public class MainActivity extends AppCompatActivity {
     public static String[] urls = {"","","","","","","","","",""};
     public static int positionNumber;
 
-//    public static String key = "search?api_key=YGHnKKBGSydS6nSt6WAoUcICWwmgCfvL&q=&limit=25&offset=0&rating=g&lang=en";
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
