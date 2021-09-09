@@ -52,11 +52,6 @@ public class MainActivity extends AppCompatActivity {
             Log.d("MyApp", String.valueOf(position));
             startActivity(intent);
 
-//            GiphyAdapter giphyAdapter = new GiphyAdapter(MainActivity.this, 1, datums);
-//            gvGif.setAdapter(giphyAdapter);
-//            intent.putExtra(giphyAdapter)
-
-
         }
     };
 
@@ -107,15 +102,7 @@ public class MainActivity extends AppCompatActivity {
                                         urls[i] = String.valueOf(downsizedMedium.getUrl());
                                     }
 
-//                                    Images images = datum.getImages();
-//                                    DownsizedMedium downsizedMedium = images.getDownsizedMedium();
-//
-//                                    urls[] = String.valueOf(downsizedMedium.getUrl());
-//                                    Log.d("MyApp", urls[]);
-//                                   ++;
-
                                     renderGif();
-
                                 }
                             }
 

@@ -34,11 +34,7 @@ public class GifOne extends AppCompatActivity {
                 .asGif()
                 .load(urls[position])
                 .into(imageView);
-//        Log.d("MyApp", String.valueOf(giphyAdapter.getView().));
 
-//        GiphyAdapter giphyAdapter = new GiphyAdapter(this, 0);
-//        ImageView imageView = findViewById(R.id.imgGifOne);
-//        imageView.setImageResource(giphyAdapter);
 
             }
         }
